@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="botao.css">
+</head>
+<body>
+    <section class="botao_criacao">
+        <form id="controles">
+            <label for="texto">texto</label>
+            <input type="text" name="texto" id="texto">
+
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+
+            <label for="background_color">background color</label>
+            <input type="color" name="background_color" id="background_color">
+
+            <label for="heigth">height</label>
+            <input type="range" name="heigth" id="heigth" min="0" max="200">
+
+            <label for="width">width</label>
+            <input type="range" name="width" id="width" min="0" max="600">
+
+            <label for="border">border</label>
+            <input type="text" name="border" id="border" placeholder="1px solid white">
+
+            <label for="border_radius">border-radius</label>
+            <input type="range" name="border_radius" id="border_radius" min="0" max="20">
+
+            <select name="font_family" id="font_family">
+                <option value="arial">Arial</option>
+                <option value="georgia">Georgia</option>
+                <option value="monospace">Monospace</option>
+            </select>
+            
+
+            <label for="font_size">font Size</label>
+            <input type="number" name="font_size" id="font_size">
+
+        </form>
+        <section class="resultado">
+            <button class="btn">clique</button>
+            <pre><code class="css"></code></pre>
+        </section>
+    </section>
+
+    <script src="botão.js"></script>
+</body>
+</html>
